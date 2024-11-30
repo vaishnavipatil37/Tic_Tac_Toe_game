@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.h{
+    height: 80px;
+    width: 100%;
+    
+    line-height: 80px;
+    text-align: center;
+    font-family: Sitka Small Semibold;
+    color: white;
+   
+}
+body{
+    background-image: url("background.jpg");
+    text-align: center;
+    
+    
+    
+}
+.container{
+    height: 70vh;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+    
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    cursor: pointer;
+    box-shadow: 0 0  4rem #79b1c3;
+    border-radius: 2rem;
+    font-size: 70px;
+    color: red;
+    background-color: aliceblue;
+   
+}
+.btn,.new-btn{
+    height: 50px;
+    width: 130px;
+    margin-top: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 4rem  rgb(130, 130, 219);
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, rgb(153, 28, 151) , rgb(52, 18, 206));
+    font-family: Rockwell;
+    font-size: 20px;
+    color: white;
+}
+.msg-container{
+height: 80vmin;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 4rem;
+}
+.msg{
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: Rockwell;
+font-size: 40px;
+color: white;
+}
+.hide{
+    display: none;
+}
